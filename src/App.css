@@ -1,0 +1,564 @@
+/* .nnav{
+  position: fixed !important;
+  width: 120rem;
+  
+  z-index: 1;
+} */
+
+/* small phones */
+
+/* @media (min-width: 200px) and (max-width:600px){
+  .nnav{
+    width: 26rem;
+    
+  }
+
+} */
+
+
+
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+h2, h1{
+  font-family: 'Satoshi', sans-serif;
+}
+
+                
+
+
+.header-wrapeer{
+  position: relative;
+  background: url(./component/images/bg.png) no-repeat; 
+  background-size: cover;
+  /* height: 93vh; */
+}
+
+.info{
+  /* background: red; */
+  /* text-align: center; */
+  padding: 4.5rem 0;
+}
+
+.info h2{
+  font-size: 6.5rem;
+}
+
+.info h2 span{
+  /* font-size: 6rem; */
+  color: red;
+}
+
+.info p{
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.image{
+  /* background: blue; */
+  width: 40rem !important;
+}
+
+.image img{
+  padding: 4.5rem 0;
+  width: 500% !important;
+  /* background: red; */
+}
+
+/* small phones */
+
+@media (min-width: 200px) and (max-width:600px) { 
+
+  .header-wrapeer{
+    background-position: center;
+  }
+  .home-flex{
+    flex-direction: column !important;
+  }
+
+  .info h2{
+    font-size: 3rem;
+  }
+}
+
+/* Ipads */
+@media (min-width: 700px) and (max-width:950px) { 
+
+  .header-wrapeer{
+    background-position: center;
+  }
+  /* .home-flex{
+    flex-direction: column !important;
+  } */
+
+  .info h2{
+    font-size: 4rem;
+  }
+
+  .image{
+    /* background: blue; */
+    width: 25rem !important;
+  }
+
+  .image img{
+    padding: 4.5rem 0;
+    width: 500% !important;
+    /* background: red; */
+  }
+}
+
+/* system */
+
+
+@media (min-width: 970px) and (max-width:1200px){
+
+  .header-wrapeer{
+    background-position: center;
+    /* height: 50vh; */
+  }
+
+  .info h2{
+    font-size: 5rem;
+  }
+
+  .image{
+    /* background: blue; */
+    width: 30rem !important;
+  }
+
+  .image img{
+    padding: 4rem 0;
+    width: 500% !important;
+    /* background: red; */
+  }
+
+
+}
+
+.section-2{
+  background:#00272C;
+}
+
+.section3{
+  background: #f4f5f3;
+}
+
+/* section4 */
+
+.section4b{
+  text-align: center !important;
+  margin-right: 10rem !important;
+}
+
+/* small phones */
+
+@media (min-width: 200px) and (max-width:600px) { 
+  /* .section4{
+    width: 10rem !important;
+    background: #00272C;
+    color: #f4f5f3;
+    padding: 10rem;
+  } */
+
+  .section4 h2{
+    /* background: #00272C; */
+    width: 20rem;
+    /* color: #f4f5f3; */
+    margin-left: -4rem;
+  }
+
+  .section4 p{
+    width: 20rem;
+    margin-left: -4rem;
+    font-size: 15px !important;
+  }
+  
+}
+
+/* ipads */
+
+@media (min-width: 700px) and (max-width:950px){
+  .section4 p{
+    width: 30rem;
+    margin-left: -2.5rem;
+    font-size: 20px !important;
+  }
+}
+
+.section5{
+  position: relative;
+  background: url(./component/images/image\ 19.png) no-repeat;
+  background-size: cover;
+  height: 70vh;
+  padding-top: 15rem;
+  /* line-height: 5rem; */
+}
+
+.section5 h1{
+  font-size: 5rem;
+  
+}
+
+/* small phones */
+
+@media (min-width: 200px) and (max-width:600px) { 
+  .section5{
+    padding-top: 5rem;
+    /* line-height: 5rem; */
+  }
+
+  .section5 h1{
+    /* font-size: 5rem; */
+    width: 20rem;
+    margin-left: -4.5rem;
+  }
+  .section5 p{
+    /* font-size: 5rem; */
+    width: 20rem;
+    margin-left: -4.5rem;
+  }
+  
+}
+
+/* ipads */
+
+@media (min-width: 700px) and (max-width:950px){
+  .section5{
+    padding-top: 2rem;
+    height: 40vh;
+    /* line-height: 5rem; */
+  }
+
+  .section5 h1{
+    /* font-size: 5rem; */
+    width: 30rem;
+    margin-left: -2rem;
+  }
+
+  .section5 p{
+    /* font-size: 5rem; */
+    width: 30rem;
+    margin-left: -2rem;
+  }
+}
+
+.section6{
+  background: #00272C;
+  height: 50vh;
+  color: #FBFDF8;
+  justify-content: center;
+  align-items: center;
+}
+
+/* system */
+
+@media (min-width: 970px) and (max-width:1200px){
+  .section5{
+    padding-top: 5rem ;
+    height: 90vh;
+  }
+}
+
+.section6 .con{
+ /* padding: 5rem 0; */
+ padding-top: 9rem;
+ font-size: 1.2rem;
+ font-weight: lighter;
+ 
+}
+
+.section6 .con h1{
+  font-size: 4rem;
+}
+
+
+.middle1{
+  /* background: red; */
+  padding: 4rem 0;
+  text-align: center;
+}
+
+/* small phone */
+
+@media (min-width: 200px) and (max-width:600px) { 
+  .section6 .con{
+    padding-top: 2rem;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    
+  }
+  .section6 .con h1{
+    font-size: 3rem;
+    /* font-weight: lighter; */
+    
+  }
+   
+  
+}
+
+@media (min-width: 970px) and (max-width:1200px){
+  .section6 .con{
+    padding-top: 1rem;
+    /* font-size: 0.9rem;
+    font-weight: lighter; */
+    
+  }
+}
+
+
+.section7{
+  background: #00272C;
+  /* height: 50vh; */
+  color: #FBFDF8;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 0.5rem;
+  padding: 10rem 0;
+  line-height: 2rem;
+  
+}
+
+.section7 a{
+  text-decoration: none;
+  color: white;
+}
+
+.section7 li{
+  list-style: none;
+}
+
+.foot{
+  text-align:right;
+}
+
+.iicon{
+  font-size: 1.5rem;
+  
+ 
+}
+
+
+@media (min-width: 200px) and (max-width:600px) { 
+  
+  .section7{
+    color: #FBFDF8;
+    padding: 2rem 0;
+   
+  }
+
+  .section7 img{
+    width: 7rem !important;
+  }
+  .section7 p{
+    width: 20rem !important;
+  }
+
+  .foot{
+    text-align:center;
+  }
+  
+}
+
+@media (min-width: 970px) and (max-width:1200px){
+  .section7{
+    padding-top: 4rem;
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                              /* about section */
+
+.about_section1{
+  position: relative;
+  background-color: #00272C;
+  background: url(./component/images/bg.png) no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 12rem 0;
+}
+
+.about_section1 h1{
+  font-size: 5rem;
+}
+
+/* small phone */
+
+@media (min-width: 200px) and (max-width:600px) { 
+
+  .about_section1{
+    background-position: center;
+    font-size: 1rem;
+    padding: 5rem 0;
+  }
+
+  .about_section1 h1{
+    font-size: 3rem;
+  }
+}
+
+/* ipads */
+
+@media (min-width: 700px) and (max-width:950px){
+  .about_section1{
+    padding: 5rem 0;
+    font-size: 1rem;
+  }
+
+  .about_section1 h1{
+    font-size: 3rem;
+  }
+}
+
+
+/* system */
+
+@media (min-width: 970px) and (max-width:1200px){
+  .about_section1{
+    padding: 5rem 0;
+    font-size: 1.5rem;
+  }
+
+  .about_section1 h1{
+    font-size: 4rem;
+  }
+}
+
+.about_section2{
+  text-align: center;
+  padding: 5rem 0;
+  line-height: 3rem;
+  font-size: 1.5rem;
+}
+.about_section2 h1{
+  font-size: 4rem;
+}
+
+.about_section2 .about-image{
+  margin-top: 9rem;
+}
+
+/* small phone */
+
+@media (min-width: 200px) and (max-width:600px) {
+
+  .about_section2{
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 5rem 0;
+  }
+  .about_section2 h1{
+    font-size: 3rem;
+  }
+
+  .about_section2 .about-image{
+    margin-top: 5rem;
+  }
+  
+}
+
+@media (min-width: 700px) and (max-width:950px){
+
+  .about_section2{
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 5rem 0;
+  }
+
+  .about_section2 h1{
+    font-size: 3rem;
+  }
+}
+
+.about_section3{
+  position: relative;
+  background: url(./component/images/Background.png) no-repeat;
+  background-size: cover;
+  /* text-align: center;
+  font-size: 1.5rem;
+  padding: 12rem 0; */
+}
+
+.section-5 h1{
+  color: #ffff;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.about_section6 h1{
+  text-align: center;
+}
+
+.reach-bg{
+  background-color: #00272C;
+  color: #ffff;
+  padding: 3rem;
+}
+
+.section-course1{
+  text-align: center;
+}
+
+.webdev-section2{
+  position: relative;
+  background: url(./component/images/image\ 19.png) no-repeat;
+  background-size: cover;
+  /* height: 70vh; */
+  padding-top: 3rem;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.contactbg{
+  position: relative;
+  background: url(./component/images/contact\ bg.png);
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 15rem;
+  margin-bottom: 2rem;
+  color: #f4f5f3;
+  /* text-align: center; */
+  /* z-index: -2; */
+}
+
+.contactbd2{
+  background: #E6E9EA;
+  border-radius: 20px;
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
+}
+
+.contactbd2 label{
+  color: #00272C;
+  text-align: left !important;
+}
+
+.contactbd2 .teext{
+  color: #00272C;
+  text-align: center;
+  /* font-size: 9rem !important; */
+}
+
+.contactbd2 .teext h2{
+  font-size: 3.5rem !important;
+}
+
+.contactbd2 .teext span{
+  color: red;
+}
