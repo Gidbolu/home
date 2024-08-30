@@ -223,7 +223,7 @@ const about = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='pt-5'> <h1> INSTRUCTORS </h1></div>
+                    <div className='pt-5'> <h2> INSTRUCTORS </h2></div>
                    
                     <div>
                         <div className="row row-cols-1 row-cols-md-5 g-4 mt-3 pb-5">

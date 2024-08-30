@@ -139,7 +139,7 @@ const home = () => {
         {/* section 4 */}
         <div>
             <div className="p-1 section4 mt-5 lh-lg text-center container w-50 ">
-                <h2 className='fs-1'>Our students have worked at.</h2>
+                <h2 className='fs-1'>Where Our students have worked at.</h2>
                 <p className='fs-5 fst-lighter'>
                     Beyond the training, getting job is one of the crucial concern we address. 
                     Learning to earn through freelancing is the initial step to fulfilling our promise.
