@@ -17,7 +17,7 @@ import Webdevelopment from './component/pages/webdevelopment'
 
 function App() {
   return (
-    <Router>
+    <Router basename='/index'>
 
       <div>
         <Navbar/>
