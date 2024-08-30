@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from "../images/happy-man-working-laptop_758367-122878.png"
 import Colon from "../images/image 7.png"
-import colon1 from "../images/image 8.png"
+import colon1 from "../images/Logo (4).png"
 import colon2 from "../images/image 9.png"
 import certificate from "../images/image 10.jpg"
 import coaching from "../images/image 11.png"
