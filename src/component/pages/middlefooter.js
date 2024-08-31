@@ -3,7 +3,7 @@ import logo from '../images/image 20.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter} from '@fortawesome/free-brands-svg-icons'
 import { faInstagram} from '@fortawesome/free-brands-svg-icons'
-import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import {Link} from 'react-router-dom'
 const middlefooter = () => {
   
@@ -52,7 +52,7 @@ const middlefooter = () => {
                                 <Link to={"https://www.instagram.com/talgd_techhub"} target='_blank' className="col link"> <FontAwesomeIcon icon={faInstagram} /> </Link> 
                                 </div>
                                 <div className='col-md-2'>
-                                <Link to={"#"} className="col link"> <FontAwesomeIcon icon={faFacebook} /> </Link> 
+                                <Link to={"https://www.linkedin.com/company/talgdhq/"} className="col link"> <FontAwesomeIcon icon={faLinkedin} /> </Link> 
                                 </div>
                                 
                             </div>
