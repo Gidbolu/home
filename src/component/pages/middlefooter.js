@@ -52,7 +52,7 @@ const middlefooter = () => {
                                 <Link to={"https://www.instagram.com/talgd_techhub"} target='_blank' className="col link"> <FontAwesomeIcon icon={faInstagram} /> </Link> 
                                 </div>
                                 <div className='col-md-2'>
-                                <Link to={"https://www.linkedin.com/company/talgdhq/"} className="col link"> <FontAwesomeIcon icon={faLinkedin} /> </Link> 
+                                <Link to={"https://www.linkedin.com/company/talgdhq/"} target='_blank' className="col link"> <FontAwesomeIcon icon={faLinkedin} /> </Link> 
                                 </div>
                                 
                             </div>
