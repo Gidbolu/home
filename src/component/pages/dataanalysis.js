@@ -45,7 +45,7 @@ const dataanalysis = () => {
             <div>
                 <div className='webdev-section2'>
                     <div className='container'>
-                        <div className=' w-50 lh-lg'>
+                        <div className=' w-75 lh-lg'>
                             {/* <h1 className='fs-1'>Intermediate Course</h1> */}
                             <p className='fs-5 fst-lighter'>
                             You don't need to be a software developer to thrive in tech. Work on your schedule, learn at your pace, and get career-ready!

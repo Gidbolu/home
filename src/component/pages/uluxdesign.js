@@ -42,7 +42,7 @@ const uluxdesign = () => {
             <div>
                 <div className='webdev-section2'>
                     <div className='container'>
-                        <div className=' w-50 lh-lg'>
+                        <div className=' w-75 lh-lg'>
                             {/* <h1 className='fs-1'>Intermediate Course</h1> */}
                             <p className='fs-5 fst-lighter'>
                                 Mastering UI/UX Principles ensures that your designs resonate with users and drive business objectives.
