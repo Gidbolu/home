@@ -56,35 +56,22 @@ const middlefooter = () => {
                                 </div>
                                 
                             </div>
+                                <div className='col mt-3 fs-5'>
+                                
+                                Tell: 08130070006
+                                </div>
                         </div>
-                        <div class="col">
+                        <div class="col foot">
                             <h2 className='fs-4'> <b> About </b></h2>
                             <div>
 
             
                                 <li><Link to={"/About"} className="col link"> Our Team </Link></li>
-                                <li><Link to={"https://www.google.com/maps/place/7%C2%B046'00.2%22N+4%C2%B032'11.1%22E/@7.7667298,4.5338521,17z/data=!3m1!4b1!4m4!3m3!8m2!3d7.7667298!4d4.536427?entry=ttu&g_ep=EgoyMDI0MDgyMy4wIKXMDSoASAFQAw%3D%3D"} target='_blank' className="col link"> Our Location</Link></li>
-                                
-                                
-                                
-
-                                {/* <ul>
-                                    <li>
-                                        <a className="" href="#"> </a>
-                                    </li>
-                                    <li>
-                                        <a className="" href="#">  </a>
-                                    </li>
-                                    <li>
-                                        <a className="" href="#"> Our Location</a>
-                                    </li>
-                                </ul> */}
-                                {/* <a className="" href="#"> Our Story</a>
-                                <a className="" href="#"> Our Team</a>
-                                <a className="" href="#"> Our Location</a> */}
+                                <li><Link to={"https://g.co/kgs/ezNgtPp"} target='_blank' className="col link"> Our Location</Link></li>
+                              
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col foot">
                             <h2 className='fs-4'> <b> Courses </b></h2>
                             <div>
                             
@@ -93,55 +80,11 @@ const middlefooter = () => {
                                 <li> <Link to={"/Digitalmarketing"} className="col link">Digital Marketing </Link></li>
                                 <li> <Link to={"/Productmanagement"} className="col link"> Product Management </Link></li>
                                 <li> <Link to={"/Webdevelopment"} className="col link"> Website Development </Link></li>
-                                
-                                {/* <p>Website Development</p>
-                                <p>Graphic Design</p>
-                                <p>Product Management</p>
-                                <p>UI/UX Design</p> */}
-                                {/* <ul>
-                                   <Link to={"/Dataanalysis"} className="col link"> Data Analysis </Link>
-                                    <Link to={"/Uiuxdesign"} className="col link"> UI/UX Design </Link>
-                                    <Link to={"/Digitalmarketing"} className="col link">Digital Marketing </Link>
-                                     <Link to={"/Productmanagement"} className="col link"> Product Management </Link>
-                                    <Link to={"/Webdevelopment"} className="col link"> Website Development </Link>
-                                </ul> */}
+                               
                                 
                             </div>
                         </div>
-                        {/* <div class="col-md-2">
-                            <h2 className='fs-4'> <b> FAQs </b></h2>
-                            <div>
-                                <ul>
-                                    <li> <a className="" href="#"> Blog</a></li>
-                                    <li> <a className="" href="#"> Materials</a></li>
-                                    <li> <a className="" href="#"> Webinars</a></li>
-                                    <li> <a className="" href="#"> Masterclasses</a></li>
-                                    <li> <a className="" href="#"> Events</a></li>
-                                </ul>
-                            </div>
-                        </div> */}
-                        {/* <div class="col-md-2">
-                            <h2 className='fs-4'> <b> Collaborate </b></h2>
-                            <div>
-                                <ul>
-                                    <li>
-                                        <a className="" href="#"> Sponsor Students</a>
-                                    </li>
-                                    <li>
-                                        <a className="" href="#"> Recruit Graduates</a>
-                                    </li>
-                                    <li>
-                                        <a className="" href="#"> Verify Graduates</a>
-                                    </li>
-                                    <li>
-                                        <a className="" href="#"> Apply as a Tutor</a>
-                                    </li>
-                                
-                                </ul>
-
-                                
-                            </div>
-                        </div> */}
+                       
                         
                     </div>
 

@@ -21,12 +21,42 @@
 
 h2, h1{
   font-family: 'Satoshi', sans-serif;
+  font-weight: 600;
 }
 
 .ins{
   color: #ffff;
   text-align: center;
 }
+
+.fixed{
+  position: fixed;
+}
+
+.nnav li {
+  margin-left: 2rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.nnav li .active:hover{
+  font-weight: 500;
+}
+
+.bbt button{
+  font-size: 1.1rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  margin-left: 1rem;
+  border-radius: 15px;
+}
+
+.bbt .bt{
+  border: solid #00272C;
+  color: #00272C;
+}
+
+
 
                 
 
@@ -46,6 +76,7 @@ h2, h1{
 
 .info h2{
   font-size: 6.5rem;
+  font-weight: 600;
 }
 
 .info h2 span{
@@ -152,8 +183,8 @@ h2, h1{
 /* section4 */
 
 .section4b{
-  text-align: center !important;
-  margin-right: 10rem !important;
+  text-align: center;
+  margin-right: 6rem !important;
 }
 
 /* small phones */
@@ -281,7 +312,13 @@ h2, h1{
 .middle1{
   /* background: red; */
   padding: 4rem 0;
-  text-align: center;
+  text-align: right;
+}
+
+.middle1 button{
+  padding-left: 5rem;
+  padding-right:5rem ;
+  font-weight: 500;
 }
 
 /* small phone */

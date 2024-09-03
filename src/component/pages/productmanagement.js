@@ -62,11 +62,11 @@ const productmanagement = () => {
                                 
                                 <div>
                                     <div className='container overflow-hidden '>
-                                        <div className="row gx-1 mt-5">
+                                        <div className="row gx-1 mt-5 mb-5">
                                             <div className=" pt-5 col-md-3 ">
                                                 <div class="col-md-5 ">
                                                     <p>Mode of learning</p>
-                                                    <p className='fw-bold'>100% virtual</p>
+                                                    <p className='fw-bold'>100% Virtual</p>
                                                     
                                                 </div>
                                                 <div class="col-md-5 pt-4">
@@ -103,13 +103,7 @@ const productmanagement = () => {
                                             
                                             </div>
                                         </div>
-                                        <div className='mb-5'>
-                                            <p className='fs-1 fw-bold'>NGN 70,000</p>
-                                            <div className='mt-1'>
-                                                <button className="btn btn-lg btn-dark me-2 fs-3 " type="button"><Link to={"/Courses"} className="nav-link active" >Enroll for this class</Link></button>
-                                                {/* <button className="btn btn-lg btn-outline-success me-2" type="button"><Link to={"/Contact"} className="nav-link active" >Contact</Link></button> */}
-                                            </div>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>

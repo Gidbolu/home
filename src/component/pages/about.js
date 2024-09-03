@@ -83,7 +83,7 @@ const about = () => {
                                     
                                     </div>
                                     <div className="col-md-5">
-                                        {/* <div className="p-3 border bg-light">Custom column padding</div> */}
+                                        
                                         <img src={Image21} className='img-fluid '/>
                                     </div>
                                 </div>
@@ -93,7 +93,7 @@ const about = () => {
                             <div className='container overflow-hidden '>
                                 <div className="row gx-5 mt-5 mb-5">
                                     <div className=" col-md-5">
-                                        {/* <div className="p-3 border bg-light">Custom column padding</div> */}
+                                       
                                         <img src={Image23} className='img-fluid'/>
                                     </div>
 
@@ -123,7 +123,7 @@ const about = () => {
                                     
                                     </div>
                                     <div className="col-md-5">
-                                        {/* <div className="p-3 border bg-light">Custom column padding</div> */}
+                                        
                                         <img src={Image25} className='img-fluid'/>
                                     </div>
                                 </div>
@@ -180,9 +180,7 @@ const about = () => {
                                     <h5 className="card-title"><b>Adeleke Akinsanni</b></h5>
                                     <p className="card-text">Chief Mentor</p>
                                 </div>
-                                {/* <div className="card-footer">
-                                    <small className="text-muted">Last updated 3 mins ago</small>
-                                </div> */}
+                                
                                 </div>
                             </div>
                             <div className="col">
@@ -192,9 +190,7 @@ const about = () => {
                                     <h5 className="card-title"><b>Ayobami Adebayo</b></h5>
                                     <p className="card-text">Mentor</p>
                                 </div>
-                                {/* <div className="card-footer">
-                                    <small className="text-muted">Last updated 3 mins ago</small>
-                                </div> */}
+                               
                                 </div>
                             </div>
                             <div className="col">
@@ -204,9 +200,7 @@ const about = () => {
                                     <h5 className="card-title"><b>Dara Sobaloju</b></h5>
                                     <p className="card-text">Mentor</p>
                                 </div>
-                                {/* <div className="card-footer">
-                                    <small className="text-muted">Last updated 3 mins ago</small>
-                                </div> */}
+                                
                                 </div>
                             </div>
                             <div className="col">
@@ -216,9 +210,7 @@ const about = () => {
                                     <h5 className="card-title"><b>Opeyemi Alabi</b></h5>
                                     <p className="card-text">Resource Manager</p>
                                 </div>
-                                {/* <div className="card-footer">
-                                    <small className="text-muted">Last updated 3 mins ago</small>
-                                </div> */}
+                                
                                 </div>
                             </div>
                         </div>
@@ -227,16 +219,7 @@ const about = () => {
                    
                     <div>
                         <div className="row row-cols-1 row-cols-md-5 g-4 mt-3 pb-5">
-                            {/* <div className="col">
-                                <div className="card h-70">
-                                <img src={Leader14} className='img-fluid' alt='colon ...'/>
-                                <div className="card-body">
-                                    <h5 className="card-title">Tolulope Joshua, Jejeniwa.</h5>
-                                    <p className="card-text">Data Analyst</p>
-                                </div>
-                                
-                                </div>
-                            </div> */}
+                            
                             <div className="col">
                                 <div className="card h-70">
                                 <img src={Leader2} className='img-fluid' alt='colon ...'/>
@@ -375,8 +358,8 @@ const about = () => {
                                           <b>Working hours:</b>   Monday - Friday (10am - 4pm) 
                                         </p>
                                         <div className=' mt-4'>
-                                            <button className="btn btn-lg btn-dark me-2 " type="button"><Link to={"https://www.google.com/maps/place/7%C2%B046'00.2%22N+4%C2%B032'11.1%22E/@7.7660254,4.5360951,17.97z/data=!4m4!3m3!8m2!3d7.7667222!4d4.5364167?entry=ttu&g_ep=EgoyMDI0MDgyMy4wIKXMDSoASAFQAw%3D%3D"} target='_blank' className="nav-link active" >Click here for the Location Map</Link></button>
-                                            {/* <button className="btn btn-lg btn-outline-success me-2" type="button"><Link to={"/Contact"} className="nav-link active" >Contact</Link></button> */}
+                                            <button className="btn btn-lg btn-dark me-2 " type="button"><Link to={"https://g.co/kgs/ezNgtPp"} target='_blank' className="nav-link active" >Click here for the Location Map</Link></button>
+                                            
                                         </div>
                                     </div>
                                 </div>

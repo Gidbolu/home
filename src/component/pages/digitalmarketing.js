@@ -63,11 +63,11 @@ const digitalmarketing = () => {
                                 
                                 <div>
                                     <div className='container overflow-hidden '>
-                                        <div className="row gx-1 mt-5">
+                                        <div className="row gx-1 mt-5 mb-5">
                                             <div className=" pt-5 col-md-3 ">
                                                 <div class="col-md-5 ">
                                                     <p>Mode of learning</p>
-                                                    <p className='fw-bold'>virtual/physical</p>
+                                                    <p className='fw-bold'>Virtual/Physical</p>
                                                     
                                                 </div>
                                                 <div class="col-md-5 pt-4">
@@ -104,13 +104,7 @@ const digitalmarketing = () => {
                                             
                                             </div>
                                         </div>
-                                        <div className='mb-5 mt-5'>
-                                            <p className='fs-1 fw-bold'>NGN 80,000</p>
-                                            <div className='mt-1'>
-                                                <button className="btn btn-lg btn-dark me-2 fs-3 " type="button"><Link to={"https://paystack.com/pay/uiuxbytalgd"} target='_blank' className="nav-link active" >Enroll for this class</Link></button>
-                                                {/* <button className="btn btn-lg btn-outline-success me-2" type="button"><Link to={"/Contact"} className="nav-link active" >Contact</Link></button> */}
-                                            </div>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
