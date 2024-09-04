@@ -17,7 +17,7 @@ import Leader5 from '../images/leader 5.png'
 import Leader6 from '../images/leader 6.png'
 import Leader7 from '../images/leader 7.png'
 import Leader8 from '../images/leader 8.png'
-import Leader9 from '../images/leader 9.png'
+import Leader9 from '../images/leader 9.jpg.png'
 import Leader10 from '../images/leader 10.png'
 import Leader11 from '../images/leader 11.png'
 import Leader12 from '../images/leader 12.png'
@@ -33,8 +33,8 @@ const about = () => {
             <div>
                 <div className='about_section1'>
                     <div className='container'>
-                        <h1>Leading The </h1>
-                        <h1>Edtech Sector </h1>
+                        <h1>Enabling Lifelong </h1>
+                        <h1>Learning</h1>
                         <p>
                             Talgd is an edtech product built to connect technology enthusiasts 
                             with resource providers, to get them equipped and become technology experts.
@@ -170,15 +170,15 @@ const about = () => {
 
             <div className='section-2 section-5'>
                 <div className='container '>
-                    <div className='pt-5'> <h1> Meet our Team</h1></div>
+                    <div className='pt-5'> <h2 className='fs-1 ins' > MEET OUR TEAM </h2></div>
                     <div>
-                        <div className="row row-cols-1 row-cols-md-4 g-4 mt-5">
+                        <div className="row row-cols-1 row-cols-md-4 g-4 mt-5 mb-5">
                             <div className="col">
                                 <div className="card h-70">
-                                <img src={Leader1} className='img-fluid' alt='colon ...'/>
+                                <img src={Leader10} className='img-fluid' alt='colon ...'/>
                                 <div className="card-body">
-                                    <h5 className="card-title"><b>Adeleke Akinsanni</b></h5>
-                                    <p className="card-text">Chief Mentor</p>
+                                    <h5 className="card-title"><b>Opeyemi Alabi</b></h5>
+                                    <p className="card-text">Operations Lead</p>
                                 </div>
                                 
                                 </div>
@@ -188,7 +188,7 @@ const about = () => {
                                 <img src={Leader4} className='img-fluid' alt='colon ...'/>
                                 <div className="card-body">
                                     <h5 className="card-title"><b>Ayobami Adebayo</b></h5>
-                                    <p className="card-text">Mentor</p>
+                                    <p className="card-text">Project Manager</p>
                                 </div>
                                
                                 </div>
@@ -198,24 +198,24 @@ const about = () => {
                                 <img src={Leader9} className='img-fluid' alt='colon ...'/>
                                 <div className="card-body">
                                     <h5 className="card-title"><b>Dara Sobaloju</b></h5>
-                                    <p className="card-text">Mentor</p>
+                                    <p className="card-text">Team Lead</p>
                                 </div>
                                 
                                 </div>
                             </div>
                             <div className="col">
                                 <div className="card h-100">
-                                <img src={Leader10} className='img-fluid' alt='colon ...'/>
+                                <img src={Leader1} className='img-fluid' alt='colon ...'/>
                                 <div className="card-body">
-                                    <h5 className="card-title"><b>Opeyemi Alabi</b></h5>
-                                    <p className="card-text">Resource Manager</p>
+                                    <h5 className="card-title"><b>Adeleke Akinsanni</b></h5>
+                                    <p className="card-text"> Chief Advisor</p>
                                 </div>
                                 
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className='pt-5'> <h2 className='fs-1 ins' > INSTRUCTORS </h2></div>
+                    <div className='pt-5 pb-5'> <h2 className='fs-1 ins' > INSTRUCTORS </h2></div>
                    
                     <div>
                         <div className="row row-cols-1 row-cols-md-5 g-4 mt-3 pb-5">
@@ -377,9 +377,9 @@ const about = () => {
                         <h1 className='fs-1'>Are You Ready to Get into Tech Today?</h1>
                         <p className='fs-5 fst-lighter'>Choose Talgd to get started and get tagged with the learning resources you need, as you want it and at your pace.</p>
                     </div>
-                    <div className=' mt-5'>
+                    <div className='bbbt mt-5'>
                         <button className="btn btn-lg btn-dark me-2 " type="button"><Link to={"/Courses"} className="nav-link active" >Get started</Link></button>
-                        <button className="btn btn-lg btn-outline-success me-2" type="button"><Link to={"/Contact"} className="nav-link active" >Contact</Link></button>
+                        <button className="btn btn-lg ttb btn-outline-success me-2" type="button"><Link to={"/Contact"} className="nav-link active" >Contact</Link></button>
                     </div>
                 </div>
             

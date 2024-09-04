@@ -35,9 +35,9 @@ const home = () => {
                           <h2 className=""> Enabling Lifelong <span> Learning</span></h2>
                           <p className=''>Equipping African's youthful population with the learning resources needed to position them for global relevance.</p>
 
-                          <div className=''>
+                          <div className='bbbt'>
                               <button className="btn btn-lg  btn-dark me-2 " type="button"><Link to={"/Courses"} className="nav-link active" >Get started</Link></button>
-                              <button className="btn btn-lg bt btn-outline-success me-2" type="button"><Link to={"/Contact"} className="nav-link active" >Contact</Link></button>
+                              <button className="btn ttb btn-lg bt btn-outline-success me-2" type="button"><Link to={"/Contact"} className="nav-link active" >Contact Us</Link></button>
                           </div>
                       </div>
                       <div className="col col-md-5 image">
@@ -147,8 +147,8 @@ const home = () => {
                             
             </div>
 
-            <div className="container section4b px-4 p-5 ">
-                <div className="row gx-5">
+            <div className="container section4b">
+                <div className="row gx-5 ">
                     <div className="col-md-2">
                     {/* <div className="p-3 border bg-light">Custom column padding</div> */}
                     <img src={work1} className='img-fluid'/>
@@ -170,7 +170,7 @@ const home = () => {
                     <img src={work7} className=' w-50 img-fluid'/>
                     </div>
                 </div>
-                <div className="row gy-4 pt-3" >
+                <div className="row gy-4 pt-3 " >
                     <div className="col-md-2">
                     {/* <div className="p-3 border bg-light">Custom column padding</div> */}
                     <img src={work5} className=' img-fluid'/>
@@ -202,9 +202,9 @@ const home = () => {
                     <h1 className='fs-1'>Are You Ready to Get into Tech Today?</h1>
                     <p className='fs-5 fst-lighter'>Choose Talgd to get started and get tagged with the learning resources you need, as you want it and at your pace.</p>
                 </div>
-                <div className=' mt-5'>
+                <div className=' mt-5 bbbt'>
                     <button className="btn btn-lg btn-dark me-2 " type="button"><Link to={"/Courses"} className="nav-link active" >Get started</Link></button>
-                    <button className="btn btn-lg btn-outline-success me-2" type="button"><Link to={"/Contact"} className="nav-link active" >Contact</Link></button>
+                    <button className="btn ttb btn-lg btn-outline-success me-2" type="button"><Link to={"/Contact"} className="nav-link active" >Contact Us</Link></button>
                 </div>
             </div>
             
