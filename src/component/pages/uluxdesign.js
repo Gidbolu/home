@@ -18,7 +18,7 @@ const uluxdesign = () => {
                                 <p className=''>Tagging tech talents with the resources they need to be globally relevant.</p>
 
                                 <div>
-                                    <button className="btn btn-lg btn-dark me-2 fs-3" type="button"><Link to={"https://paystack.com/pay/uiuxbytalgd"} target='_blank' className="nav-link active" >Enroll now for N90,000</Link></button>
+                                    <button className="btn btn-lg btn-dark me-2 fs-3" type="button"><Link to={"https://docs.google.com/forms/d/e/1FAIpQLScshIxOu3MDys4IpMltlUKYcSjWbwFeXYQ_Exo2jZAp3Aw6Aw/viewform?usp=pp_url"} target='_blank' className="nav-link active" >Enroll now for N90,000</Link></button>
                                     {/* <button className="btn btn-lg btn-outline-success me-2" type="button"><Link to={"/Contact"} className="nav-link active" >Contact</Link></button> */}
                                 </div>
                             </div>
