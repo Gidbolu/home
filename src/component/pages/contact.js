@@ -18,7 +18,7 @@ import emailjs from "emailjs-com";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    to_name: "Akinshub",
+    to_name: "Talgd",
     from_name: "",
     from_lastName: "",
     from_phoneNumber: "",
@@ -35,10 +35,10 @@ const ContactForm = () => {
     e.preventDefault();
 
     emailjs.send(
-      'service_tbx8cl5',            // Replace with your EmailJS Service ID
-      'template_fseomds',           // Replace with your EmailJS Template ID
+      'talgdoperations',            // Replace with your EmailJS Service ID
+      'template_bqgsjnc',           // Replace with your EmailJS Template ID
       formData,                     // The data you want to send
-      'nPjdkJRYELHENg_zK'                // Replace with your EmailJS User ID
+      'ZowSu-RAoAcPJtjTI'                // Replace with your EmailJS User ID
     )
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text);
