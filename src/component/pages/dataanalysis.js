@@ -20,7 +20,7 @@ const dataanalysis = () => {
 
                                 <div>
                                     
-                                    <button className="btn btn-lg  btn-dark me-2 fs-3" type="button"><Link to={"https://docs.google.com/forms/d/e/1FAIpQLScshIxOu3MDys4IpMltlUKYcSjWbwFeXYQ_Exo2jZAp3Aw6Aw/viewform?usp=pp_url"} target='_blank' className="nav-link active" >Enroll now for N100,000</Link></button>
+                                    <button className="btn btn-lg  btn-dark me-2 fs-3" type="button"><Link to={"https://tally.so/r/mJDoaJ"} target='_blank' className="nav-link active" >Enroll now for N100,000</Link></button>
                                     {/* <button className="btn btn-lg btn-outline-success me-2" type="button"><Link to={"/Contact"} className="nav-link active" >Contact</Link></button> */}
                                 </div>
                             </div>
